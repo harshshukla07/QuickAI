@@ -347,7 +347,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Harsh Shukla**
 - GitHub: [@harshshukla07](https://github.com/harshshukla07)
-- LinkedIn: [Connect with me](https://linkedin.com/in/harshshukla07)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/harshshukla989/)
 
 
 ---
@@ -369,4 +369,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   **Built with ❤️ and AI**
   
   [🌟 Star](https://github.com/harshshukla07/QuickAI) • [🐛 Report Bug](https://github.com/harshshukla07/QuickAI/issues) • [✨ Request Feature](https://github.com/harshshukla07/QuickAI/issues)
+
 </div>
