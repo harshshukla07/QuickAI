@@ -4,6 +4,10 @@ import NodeCache from 'node-cache';
 const cache = new NodeCache({ stdTTL: 3600 });
 
 export const cacheMiddleware = (req, res, next) => {
+  // Validate prompt before using it for cache key
+  if (typeof req.body.prompt !== 'string' || req.body.prompt.length === 0) {
+    return next();
+  }
   // Create cache key from prompt (for article generation)
   const cacheKey = `article:${Buffer.from(req.body.prompt).toString('base64').slice(0, 50)}`;
 
